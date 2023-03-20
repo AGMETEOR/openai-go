@@ -34,6 +34,7 @@ type OpenAIClient struct {
 	Audio       *AudioAPI
 	File        *FileAPI
 	FineTunes   *FineTunesAPI
+	Moderations *ModerationsAPI
 }
 
 type Response struct {
@@ -80,6 +81,10 @@ func NewClient(httpClient *http.Client) *OpenAIClient {
 	}
 
 	oapiClient.FineTunes = &FineTunesAPI{
+		openAIClient: oapiClient,
+	}
+
+	oapiClient.Moderations = &ModerationsAPI{
 		openAIClient: oapiClient,
 	}
 
