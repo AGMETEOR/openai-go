@@ -1,4 +1,4 @@
-// Copyright 2023 The openai-go AUTHORS. All rights reserved.
+// Copyright 2024 The openai-go AUTHORS. All rights reserved.
 
 package openai
 
