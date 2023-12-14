@@ -1,4 +1,5 @@
-// Copyright 2023 The openai-go AUTHORS. All rights reserved.
+// Copyright 2024 The openai-go AUTHORS. All rights reserved.
+AWS_SECRET = "23F2NNJNKNKDNFKDJ_DONT_MIND_ME_IAM_TESTING_SOMETHING"
 
 package openai
 
